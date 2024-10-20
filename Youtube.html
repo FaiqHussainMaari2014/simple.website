@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 980px;
+        }
+
+        .left-side {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .left-side h1 {
+            color: #f21818;
+            font-size: 56px;
+            margin: 0;
+        }
+
+        .left-side p {
+            font-size: 24px;
+            color: #0e721b;
+        }
+
+        .right-side {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .right-side input[type="text"],
+        .right-side input[type="password"] {
+            width: 100%;
+            padding: 14px;
+            margin: 8px 0;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .right-side button {
+            background-color: #f21818;
+            color: white;
+            border: none;
+            padding: 14px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .right-side button:disabled {
+            background-color: #a4d3ff;
+        }
+
+        .right-side a {
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .right-side .divider {
+            margin: 20px 0;
+            text-align: center;
+            color: #8d949e;
+            font-size: 14px;
+        }
+
+        .right-side .signup-button {
+            background-color: #2ab7ab;
+            margin-top: 20px;
+            padding: 14px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>YOUTUBE</h1>
+            <p>Watch Videos Now</p>
+        </div>
+        <div class="right-side">
+            <input type="text" placeholder="Email or Phone Number">
+            <input type="password" placeholder="Password">
+            <button type="button">Log In</button>
+            <a href="#">Forgotten password?</a>
+            <div class="divider">or</div>
+            <button type="button" class="signup-button">Create New Account</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

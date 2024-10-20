@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            width: 350px;
+            padding: 40px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+        .login-container img {
+            width: 175px;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"], 
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-container button:disabled {
+            background-color: #b2dffc;
+        }
+        .login-container .divider {
+            margin: 20px 0;
+            color: #8e8e8e;
+            position: relative;
+        }
+        .login-container .divider::before,
+        .login-container .divider::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background-color: #dbdbdb;
+        }
+        .login-container .divider::before {
+            left: 0;
+        }
+        .login-container .divider::after {
+            right: 0;
+        }
+        .login-container .signup {
+            margin-top: 20px;
+            color: #8e8e8e;
+        }
+        .login-container .signup a {
+            color: #0095f6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        <input type="text" placeholder="Phone number, username, or email">
+        <input type="password" placeholder="Password">
+        <button type="button">Log In</button>
+        <div class="divider">OR</div>
+        <button type="button" style="background-color: #385185;">Log in with Facebook</button>
+        <div class="signup">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>

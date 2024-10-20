@@ -1,0 +1,42 @@
+.body{
+    background-color: black;
+    margin: 0;
+}
+.main{
+    height: 70vh;
+    font-size: 20px;
+    background-color: wheat;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    height: 100px;
+}
+.sub{
+    display: flex;
+    gap: 30px;
+}
+.button{
+    color: blue;
+    background-color: aquamarine;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 120px;
+
+}
+.subhero{
+    color: lightblue;
+    width: 500px;
+}
+.circle{
+    border-radius: 50%;
+    border-color: lightblue;
+    height: 350px;
+    width: 350px;
+}

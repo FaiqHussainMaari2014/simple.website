@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 350px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .login-container img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #a6a6a6;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f0c14b;
+            border: 1px solid #a88734;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .login-container button:hover {
+            background-color: #e2b33c;
+        }
+        .login-container a {
+            color: #0066c0;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .login-container .create-account {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .login-container .create-account a {
+            color: #0066c0;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
+        <h1>Sign-In</h1>
+        <label for="email">Email or mobile phone number</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button type="button">Sign-In</button>
+        <a href="#">Forgot your password?</a>
+        <div class="create-account">
+            <p>New to Amazon?</p>
+            <a href="#">Create your Amazon account</a>
+        </div>
+    </div>
+</body>
+</html>

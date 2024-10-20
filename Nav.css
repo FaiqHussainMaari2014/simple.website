@@ -1,0 +1,15 @@
+.Main {
+    display: flex;
+    background-color: black;
+    color: aquamarine;
+    gap: 20px;
+    border: 0;
+    align-items: center;
+}
+
+.css {
+    display: flex;
+    background-color: black;
+    color: aquamarine;
+
+}

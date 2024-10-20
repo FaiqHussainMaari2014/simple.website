@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: blue;
+    background-color: aquamarine;
+    fill: aquamarine;
+
+}
